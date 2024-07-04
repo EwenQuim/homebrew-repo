@@ -1,8 +1,8 @@
 class Entropy < Formula
   desc "This CLI tool scans your files for high entropy lines, which are often secrets"
   homepage "https://github.com/EwenQuim/entropy"
-  url "https://github.com/EwenQuim/entropy/archive/refs/tags/v1.0.6.tar.gz"
-  sha256 "b6bf71ecd7ece64684313dacb2093d5cccfc7d338a4173837a255111659de5fe"
+  url "https://github.com/EwenQuim/entropy/archive/refs/tags/v1.0.7.tar.gz"
+  sha256 "2df45521ee65c6fe826490c43352a1a8721453cee46d201e7acafacddcc3a2b3"
   license "MIT"
   
   depends_on "go" => :build
